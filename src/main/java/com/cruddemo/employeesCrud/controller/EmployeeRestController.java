@@ -12,6 +12,7 @@ import java.util.List;
 public class EmployeeRestController {
     private EmployeeService employeeService;
 
+    @Autowired
     public EmployeeRestController(EmployeeService employeeService) {
         this.employeeService = employeeService;
     }
